@@ -6,6 +6,6 @@ def print_matrix_integer(matrix=[[]]):
         else:
             for y in x:
                 if y != x[-1]:
-                    print("{}".format(y), end=' ')
+                    print("{:d}".format(y), end=' ')
                 else:
-                    print("{}".format(y))
+                    print("{:d}".format(y))
