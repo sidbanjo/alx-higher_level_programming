@@ -6,6 +6,6 @@ def no_c(my_string):
         if i == "c" or i == "C":
             continue
         else:
-            mod_string[x] = i
-            x++
+            mod_string += i
+            x += 1
     return mod_string
