@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def uppercase(str):
     if str == "":
-        pass
+        print("")
     else:
         up_str = ""
         for i in str:
