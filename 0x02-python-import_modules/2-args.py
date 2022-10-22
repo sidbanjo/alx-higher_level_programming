@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import sys
 
+
 def arguments():
     ar = sys.argv
     ar_len = len(ar) - 1
@@ -14,6 +15,7 @@ def arguments():
         print(f"{ar_len} arguments:")
         for x in range(1, ar_len + 1):
             print(f"{x}: {ar[x]}")
+
 
 if __name__ == "__main__":
     arguments()

@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import sys
 
+
 def inf_add():
     ar = sys.argv
     ar_len = len(ar)
@@ -12,6 +13,7 @@ def inf_add():
         for x in range(1, ar_len):
             _add += int(ar[x])
     print(_add)
+
 
 if __name__ == "__main__":
     inf_add()
