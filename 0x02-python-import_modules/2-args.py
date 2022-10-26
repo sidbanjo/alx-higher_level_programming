@@ -5,7 +5,7 @@ import sys
 def arguments():
     ar = sys.argv
     ar_len = len(ar) - 1
-    
+
     if ar_len == 0:
         print(f"{ar_len} arguments.")
     elif ar_len == 1:
